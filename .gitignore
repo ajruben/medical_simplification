@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.env.*
+
+# Downloaded models and datasets (Hugging Face)
+cache/
+
+# Training outputs: keep only small logs by default (checkpoints are large)
+outputs/**
+!outputs/.gitkeep
+!outputs/*.csv
+
+# Optional: omit zipped corpus if you also keep extracted CSVs (reduces duplicate bulk)
+data/*.zip
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
