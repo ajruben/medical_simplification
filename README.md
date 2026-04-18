@@ -63,3 +63,5 @@ Each training run calls _env_cache() in t5_train.pipeline, which sets:
 - TRANSFORMERS_CACHE to project/cache/huggingface/transformers
 
 Override by editing that helper or the environment before launch if you need a different location.
+
+rubenswarts.nl
